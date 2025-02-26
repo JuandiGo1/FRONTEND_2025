@@ -1,0 +1,110 @@
+h1 {
+    color: red;
+}
+
+h2
+{
+    color: #aa1d04;
+    font-family: Calibri;
+}
+
+.card {
+    background-color: #f9f9f9;
+    border: 1px solid #f1f1f1;
+    padding: 10px;
+    margin: 10px;
+    border-radius: 5px;
+    display: inline-block;
+    width: 100%
+}
+
+
+.card img {
+    border-radius: 200px;
+    float: left;
+}
+
+.card p {
+    color: rgb(24, 26, 24);
+    font-family: Calibri;
+    font-weight: 600;
+
+}
+
+.card div {
+    text-align: center;
+    margin-left: 10px;
+}
+
+
+#description {
+    padding-left: 330px;
+    padding-right: 50px;
+    text-align: justify;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+  }
+  
+li {
+    float: left;
+  }
+  
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  /* Change the link color to #111 (black) on hover */
+li a:hover {
+    background-color: #111;
+  }
+
+
+.active {
+    background-color: #aa1d04;
+  }
+
+.card2 {
+    background-color: #f9f9f9;
+    border: 1px solid #f1f1f1;
+    padding: 10px;
+    width: 100%;
+    margin: 10px;
+    border-radius: 5px;
+    display: inline-block;
+    justify-content: space-between; /* Espacio entre los elementos */
+
+}
+
+.card2 h2 {
+    text-align: center;
+    color: #007ab3;
+    font-family: Calibri;
+    font-weight: 700px  ;
+}
+
+.Hobbies {
+    padding: 50px;
+    display: flex;
+    justify-content: space-around; 
+    gap: 150px;
+}
+
+#t_hobbies {
+    text-align: center;
+    font-family: Calibri;
+    font-weight: 700px  ;
+}
+
+#t_hobbies h1{
+    color: #aa1d04;
+}
